@@ -1,0 +1,33 @@
+<! DOCTYPE html>
+<html>	
+<head>
+	<title>Modal</title>
+	<Meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="modal">
+		<button type="submit" class="btn" onclick="openPopup()">
+			Submit
+		</button>
+		<div class="popup" id="popup">
+			<img src="404-tick.png">
+			<h2>Raxmat!</h2>
+			<p>Kod muvafaqqaiyatli qabul qilindi.</p>
+			<button type="button" onclick="closePopup()">OK</button>	
+		</div>
+	</div>	
+<script>
+	let popup = document.getElementById('popup');
+	
+	function openPopup() {
+		popup.classList.add("open-popup");		
+	}
+	function closePopup() {
+		popup.classList.revome("open-popup");		
+	}
+</script>
+
+</body>
+</html>

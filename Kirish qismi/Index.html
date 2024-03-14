@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="Stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/Logo_xtv.png" class="logo">
+        <div class="blog">
+            <h2 class="kirish">Surxondaryo viloyat maktabgacha va maktab ta'limi boshqarmasi KPI tizimiga xush
+                kelibsiz</h2><br>
+            <p class="eslatma">Tizimda ishlash uchun
+                Telegram bot orqali ro‘yxatdan o‘tib olgan maxsus id-kodingizni kiriting.</p>
+            <a href="#">
+                <div class="kod-olish">
+                    <span style="--i:1">O</span>
+                    <span style="--i:2">m</span>
+                    <span style="--i:3">a</span>
+                    <span style="--i:4">d</span>
+                    <span style="--i:4">-</span>
+                    <span style="--i:5">y</span>
+                    <span style="--i:6">o</span>
+                    <span style="--i:7">r</span>
+                    <span style="--i:8">-</span>
+                    <span style="--i:9">b</span>
+                    <span style="--i:10">o‘</span>
+                    <span style="--i:11">l</span>
+                    <span style="--i:12">s</span>
+                    <span style="--i:13">i</span>
+                    <span style="--i:14">n</span>
+            </a>
+        </div>
+        <form>
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Kodni kiriting"><br>
+            <a class="btn" href="#" onclick="openPopup()">Kirish</a>
+            <div class="modal">
+                <!-- <button type="submit" class="btn" onclick="openPopup()"> -->
+                Submit
+                </button>
+                <div class="popup" id="popup">
+                    <img src="./img/404-tick.png">
+                    <h2>Raxmat!</h2>
+                    <p>Kod muvafaqqaiyatli qabul qilindi.</p>
+                    <button type="button"><a href="../Test start bootstrap-admin-pages/index.html">OK</a></button>
+                </div>
+            </div>
+            <script>
+                let popup = document.getElementById('popup');
+
+                function openPopup() {
+                    popup.classList.add("open-popup");
+                }
+                // function closePopup() {
+                //     popup.classList.revome("open-popup");
+                // }
+            </script>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
